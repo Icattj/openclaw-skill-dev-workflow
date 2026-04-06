@@ -1,3 +1,7 @@
+# ---
+
+> OpenClaw AI Agent Skill
+
 ---
 name: dev-workflow
 description: Professional development workflow combining Writing Plans, Test-Driven Development (TDD), and Subagent-Driven Development. Use when implementing any feature, building multi-step projects, or executing complex development tasks. Enforces plan-first, test-first, review-always methodology.
@@ -121,3 +125,13 @@ Is this a multi-step feature?
 Is this a bugfix?
   YES → Use systematic-debugging skill first, then TDD the fix
 ```
+
+## Installation
+
+```bash
+cp -r dev-workflow/ ~/.openclaw/workspace/skills/dev-workflow/
+```
+
+## License
+
+MIT © [Sentra Technology](https://github.com/Icattj)
